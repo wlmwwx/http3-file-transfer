@@ -1,0 +1,17 @@
+server:
+  host: "0.0.0.0"
+  port: 443
+  cert_file: "configs/cert.pem"
+  key_file: "configs/key.pem"
+  upload_dir: "./uploads"
+  max_file_size: 104857600  # 100MB in bytes
+  allowed_types:
+    - ".txt"
+    - ".pdf"
+    - ".doc"
+    - ".docx"
+    - ".jpg"
+    - ".png"
+    - ".zip"
+    - ".tar"
+    - ".gz"
