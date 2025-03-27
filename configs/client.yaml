@@ -1,0 +1,7 @@
+client:
+  server_host: "localhost"
+  server_port: 443
+  download_dir: "./downloads"
+  max_retries: 3
+  retry_delay: 5  # seconds
+  skip_verify: true  # for development with self-signed certificates
